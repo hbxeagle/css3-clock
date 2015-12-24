@@ -1,0 +1,18 @@
+{
+  "example": "https://github.com/edaijia-fe/efes-scaffold-example",
+  "pkg": {
+    "scripts/index.js": [
+      "src/es6/index.js"
+    ],
+    "scripts/ball.js": [
+      "src/es6/ball.js"
+    ],
+    "styles/index.css": [
+      "src/less/publishs/index.less"
+    ],
+    "styles/ball.css": [
+      "src/less/publishs/ball.less"
+    ]
+  },
+  "imgMinIgnore":[]
+}

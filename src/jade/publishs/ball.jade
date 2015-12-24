@@ -1,0 +1,41 @@
+html
+  head
+    title css3 球体
+    link(rel="stylesheet",href="styles/ball.css?VERSION")
+  body
+    div.wraper
+      div.ball-box
+        div.ball.x
+          div.x1
+          div.x2
+          div.xInner
+          div.y
+          div.y1
+          div.y2
+          div.yInner
+          div.z
+          div.z1
+          div.z2
+          div.zInner
+
+    div.opt
+      button#setC setCircle
+      button#setS setScale
+      button#setP setPlace
+      button#setRx setRotateX
+      button#setRy setRotateY
+      button#setRz setRotateZ
+      button#mymove mymove
+      button#pause pause
+      button#run run
+
+    div.range
+      input(type="range",min=0,max=180,value=0)#rX.rx
+      input(type="range",min=0,max=180,value=0)#rY.ry
+      input(type="range",min=0,max=180,value=0)#rZ.rz
+    代码转自CSS3
+    br
+    a(href="http://www.bluesdream.com/blog/css3-to-create-3d-rotating-sphere.html")制作3D旋转球体| 蓝色梦想
+
+    script(src="http://cdnjs.gtimg.com/cdnjs/libs/zepto/1.1.4/zepto.min.js")
+    script(src="scripts/ball.js?VERSION")

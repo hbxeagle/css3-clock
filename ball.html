@@ -1,0 +1,44 @@
+
+<html>
+  <head>
+    <title>css3 球体</title>
+    <link rel="stylesheet" href="styles/ball.css?VERSION"/>
+  </head>
+  <body>
+    <div class="wraper">
+      <div class="ball-box">
+        <div class="ball x">
+          <div class="x1"></div>
+          <div class="x2"></div>
+          <div class="xInner"></div>
+          <div class="y"></div>
+          <div class="y1"></div>
+          <div class="y2"></div>
+          <div class="yInner"></div>
+          <div class="z"></div>
+          <div class="z1"></div>
+          <div class="z2"></div>
+          <div class="zInner"></div>
+        </div>
+      </div>
+    </div>
+    <div class="opt">
+      <button id="setC">setCircle</button>
+      <button id="setS">setScale</button>
+      <button id="setP">setPlace</button>
+      <button id="setRx">setRotateX</button>
+      <button id="setRy">setRotateY</button>
+      <button id="setRz">setRotateZ</button>
+      <button id="mymove">mymove</button>
+      <button id="pause">pause</button>
+      <button id="run">run</button>
+    </div>
+    <div class="range">
+      <input type="range" min="0" max="180" value="0" id="rX" class="rx"/>
+      <input type="range" min="0" max="180" value="0" id="rY" class="ry"/>
+      <input type="range" min="0" max="180" value="0" id="rZ" class="rz"/>
+    </div>代码转自CSS3<br/><a href="http://www.bluesdream.com/blog/css3-to-create-3d-rotating-sphere.html">制作3D旋转球体| 蓝色梦想</a>
+    <script src="http://cdnjs.gtimg.com/cdnjs/libs/zepto/1.1.4/zepto.min.js"></script>
+    <script src="scripts/ball.js?VERSION"></script>
+  </body>
+</html>
